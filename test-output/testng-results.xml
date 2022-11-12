@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-12T11:28:18 EST" name="Default suite" finished-at="2022-11-12T11:29:21 EST" duration-ms="63333">
+    <groups>
+    </groups>
+    <test started-at="2022-11-12T11:28:18 EST" name="Default test" finished-at="2022-11-12T11:29:21 EST" duration-ms="63333">
+      <class name="testPkg.SearchFunctionalityTest">
+        <test-method is-config="true" signature="loadBrowser()[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:28:18 EST" name="loadBrowser" finished-at="2022-11-12T11:28:30 EST" duration-ms="12364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBrowser -->
+        <test-method is-config="true" signature="validationHomePage()[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:28:30 EST" name="validationHomePage" finished-at="2022-11-12T11:28:32 EST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationHomePage -->
+        <test-method signature="searchFunctionality(java.lang.String)[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:28:32 EST" name="searchFunctionality" data-provider="positiveSearchFunctionalityData" finished-at="2022-11-12T11:28:41 EST" duration-ms="8958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionality -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:28:41 EST" name="backToHomePage" finished-at="2022-11-12T11:28:45 EST" duration-ms="4047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method is-config="true" signature="validationHomePage()[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:28:45 EST" name="validationHomePage" finished-at="2022-11-12T11:28:46 EST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationHomePage -->
+        <test-method signature="searchFunctionality(java.lang.String)[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:28:46 EST" name="searchFunctionality" data-provider="positiveSearchFunctionalityData" finished-at="2022-11-12T11:28:53 EST" duration-ms="7759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionality -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:28:53 EST" name="backToHomePage" finished-at="2022-11-12T11:28:57 EST" duration-ms="3873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method is-config="true" signature="validationHomePage()[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:28:57 EST" name="validationHomePage" finished-at="2022-11-12T11:28:58 EST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationHomePage -->
+        <test-method signature="searchFunctionality(java.lang.String)[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:28:58 EST" name="searchFunctionality" data-provider="positiveSearchFunctionalityData" finished-at="2022-11-12T11:29:03 EST" duration-ms="5185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionality -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:29:03 EST" name="backToHomePage" finished-at="2022-11-12T11:29:08 EST" duration-ms="4924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method is-config="true" signature="validationHomePage()[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:29:08 EST" name="validationHomePage" finished-at="2022-11-12T11:29:08 EST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationHomePage -->
+        <test-method signature="searchFunctionality(java.lang.String)[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:29:08 EST" name="searchFunctionality" data-provider="positiveSearchFunctionalityData" finished-at="2022-11-12T11:29:16 EST" duration-ms="7530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pixel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionality -->
+        <test-method is-config="true" signature="backToHomePage()[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:29:16 EST" name="backToHomePage" finished-at="2022-11-12T11:29:19 EST" duration-ms="3041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testPkg.SearchFunctionalityTest@7d4f9aae]" started-at="2022-11-12T11:29:19 EST" name="closeBrowser" finished-at="2022-11-12T11:29:21 EST" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testPkg.SearchFunctionalityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
