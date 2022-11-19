@@ -12,6 +12,8 @@ public class SearchResultPage extends MainClass{
 	WebElement searchResultHeader;
 	@FindBy(xpath="//a[@href='/ref=nav_logo']")
 	WebElement amazonIconToGobackToHomePage;
+	@FindBy(xpath="//span[text()='No results for ']")
+	WebElement noResultErrorMsg;
 	
 	public SearchResultPage() {
 		PageFactory.initElements(driver, this);
@@ -27,6 +29,10 @@ public class SearchResultPage extends MainClass{
 	
 	public void clickAmazonIcon() {
 		amazonIconToGobackToHomePage.click();
+	}
+	
+	public boolean visibilityOfNoResultErrorMsg() {
+		return noResultErrorMsg.isDisplayed();
 	}
 
 }

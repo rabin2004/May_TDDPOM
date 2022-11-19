@@ -39,11 +39,24 @@ public class SearchFunctionalityTest extends MainClass{
 	
 	@Test(dataProviderClass = dataPkg.SearchFunctionalityData.class, 
 			dataProvider = "positiveSearchFunctionalityData")
-	public void searchFunctionality(String product) {
+	public void positiveSearchFunctionality(String product) {
 		hp.enterProductInSearchTxtBox(product);
 		hp.clickSearchBtn();
 		Assert.assertTrue(srp.returnSearchResultPageTitle().contains(product));
 		Assert.assertTrue(srp.returnSearchResultHeader().contains(product));
 	}
+	
+	@Test(dataProviderClass = dataPkg.SearchFunctionalityData.class, 
+			dataProvider = "negativeSearchFunctionalityData")
+	public void negativeSearchFunctionalityTest(String product) {
+		hp.enterProductInSearchTxtBox(product);
+		hp.clickSearchBtn();
+		Assert.assertTrue(srp.visibilityOfNoResultErrorMsg());
+	}
+	
+	
+	
+	
+	
 
 }

@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPkg.SearchFunctionalityTest">
+      <class name="testPkg.LanguageChangeFunctionalityTest">
         <methods>
-          <include name="backToHomePage"/>
           <include name="loadBrowser"/>
-          <include name="searchFunctionality" invocation-numbers="0"/>
-          <include name="validationHomePage"/>
           <include name="closeBrowser"/>
+          <include name="validationHomePage"/>
+          <include name="quickChangeLanguageFunctionalityTest" invocation-numbers="1"/>
         </methods>
-      </class> <!-- testPkg.SearchFunctionalityTest -->
+      </class> <!-- testPkg.LanguageChangeFunctionalityTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

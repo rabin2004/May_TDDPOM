@@ -14,9 +14,10 @@ public class HomePage extends MainClass{
 	
 	@FindBy(id="twotabsearchtextbox")
 	WebElement searchTxtBox;
-	
 	@FindBy(id="nav-search-submit-button")
 	WebElement searchBtn;
+	@FindBy(id="icp-nav-flyout")
+	WebElement languageChangeIcon;
 	
 	public HomePage() {
 		PageFactory.initElements(driver, this);
@@ -37,4 +38,10 @@ public class HomePage extends MainClass{
 	public String getHomePageURL() {
 		return driver.getCurrentUrl();
 	}
+	
+	public void clickLanguageChangeOption() {
+		languageChangeIcon.click();
+	}
+	
+	
 }
